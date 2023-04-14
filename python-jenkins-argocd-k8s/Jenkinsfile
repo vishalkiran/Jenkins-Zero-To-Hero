@@ -10,7 +10,7 @@ pipeline {
         
         stage('Checkout'){
             steps {
-                git branch: 'main', url: 'https://github.com/vishalkiran/Jenkins-Zero-To-Hero'
+                git branch: 'main', url: 'https://github.com/vishalkiran/Jenkins-Zero-To-Hero/python-jenkins-argocd-k8s'
            }
         }
 
